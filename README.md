@@ -6,6 +6,7 @@ Returns are a major challenge for e-commerce businesses, impacting profitability
 The analysis explores return patterns across product categories, suppliers, geographic regions, and marketing channels. A predictive model is developed to estimate the likelihood of returns, while an interactive Power BI dashboard helps stakeholders monitor return risks and make data-driven decisions.
 
 🎯 Objective
+
 Identify the main reasons customers return products.
 Analyze return rate variations by:
 Product Category
@@ -14,13 +15,16 @@ Geographic Region
 Marketing Channel
 Predict the probability of product returns using Machine Learning.
 Build a Return Risk Dashboard for business decision-making.
+
 🛠️ Tech Stack
+
 Python – Data Cleaning, Analysis, Machine Learning
 SQL – Data Extraction and Aggregation
 Power BI – Interactive Dashboard & Reporting
 Pandas, NumPy – Data Processing
 Scikit-learn – Logistic Regression Modeling
 Matplotlib/Seaborn – Data Visualization
+
 📂 Dataset
 
 The project uses:
@@ -40,25 +44,30 @@ Marketing Channel
 Order Value
 Return Status
 Return Reason
+
 📊 Project Workflow
+
 1. Data Cleaning & Preparation
 Removed duplicate records
 Handled missing values
 Standardized category names
 Merged order and return datasets
 Created return indicator variables
+
 2. Exploratory Data Analysis (EDA)
 Overall Return Rate Analysis
 Return Rate by Category
 Return Rate by Supplier
 Regional Return Trends
 Marketing Channel Impact Analysis
+
 3. Feature Engineering
 Return Frequency
 Product Category Encoding
 Customer Region Encoding
 Supplier Performance Metrics
 Marketing Channel Metrics
+
 4. Predictive Modeling
 
 Implemented Logistic Regression to predict return probability.
@@ -73,6 +82,7 @@ Model Outputs:
 Return Probability Score
 High-Risk Product Identification
 Feature Importance Analysis
+
 5. Dashboard Development
 
 Created a Power BI dashboard featuring:
@@ -83,7 +93,9 @@ Supplier Risk Analysis
 Regional Return Heatmap
 Marketing Channel Performance
 High-Risk Product Monitoring
+
 📈 Key Insights
+
 Certain product categories exhibit significantly higher return rates.
 Supplier quality directly impacts product return behavior.
 Return trends vary across regions due to customer preferences and logistics performance.
@@ -115,7 +127,8 @@ Enhance customer satisfaction
 Add dashboard screenshots inside the /images folder and reference them here.
 
 Markdown
-![Return Dashboard](images/return_dashboard.png)
+![Return Dashboard](https://github.com/pranjaly711-design/E-commerce/blob/main/ecomerce%20final%20project.png)
+
 🔮 Future Enhancements
 Random Forest & XGBoost Models
 Real-time Return Risk Monitoring
